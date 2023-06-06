@@ -1,0 +1,23 @@
+{
+  "appName": "web",
+  "kubernetesServiceNameSuffix": "svc",
+  "settingsNameLocalStorage": "myshop.settings",
+  "cartNameLocalStorage": "myshop.cart",
+  "endPoint": "https://mymicroservices.com",
+  "accessTokenName": "myshop.accessToken",
+  "refreshTokenName": "myshop.refreshToken",
+  "folderNameProductImage": "/product",
+  "defaultProductImage": "/default-product-image.png",
+  "folderNameAvatarImage": "/avatar",
+  "defaultAvatarImage": "/default-avatar-image.png",
+  "certificateFolderName": "certs",
+  "certificateFileName": "localhost.crt",
+  "certificateKeyFileName": "localhost.key",
+  "serviceName": "authentication",
+  "apiPathCertificateCA": "api/v1/download/cacert",
+  "apiPathCertificateHost": "api/v1/download/cert",
+  "apiPathCertificateHostKey": "api/v1/download/cert-key",
+  "minutesToReloadCertificate": 1,
+  "secondsToReloadServicesName": 15,
+  "consul": "consul-svc:8500"
+}

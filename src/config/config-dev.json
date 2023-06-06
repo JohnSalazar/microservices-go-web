@@ -1,0 +1,23 @@
+{
+  "appName": "web",
+  "settingsNameLocalStorage": "myshop.settings.dev",
+  "cartNameLocalStorage": "myshop.cart.dev",
+  "endPoint": "https://localhost",
+  "accessTokenName": "myshop.accessToken.dev",
+  "refreshTokenName": "myshop.refreshToken.dev",
+  "folderNameProductImage": "/product",
+  "defaultProductImage": "/default-product-image.png",
+  "folderNameAvatarImage": "/avatar",
+  "defaultAvatarImage": "/default-avatar-image.png",
+  "certificateFolderName": "certs",
+  "certificateFileName": "localhost.crt",
+  "certificateKeyFileName": "localhost.key",
+  "serviceName": "authentication",
+  "apiPathCertificateCA": "api/v1/download/cacert",
+  "apiPathCertificateHost": "api/v1/download/cert",
+  "apiPathCertificateHostKey": "api/v1/download/cert-key",
+  "minutesToReloadCertificate": 1,
+  "passwordPermissionEndPoint": "6L8awtp6@wi0QeD@*xym",
+  "secondsToReloadServicesName": 15,
+  "consul": "localhost:8500"
+}
