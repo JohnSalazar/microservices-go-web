@@ -83,6 +83,14 @@
 
 ---
 
+## How to build this project
+
+### Access the Infra repository and follow the instructions
+
+- [Infra](https://github.com/JohnSalazar/microservices-go-infra)
+
+---
+
 ## About
 
 Web service was developed by [oceano.dev](https://oceano.dev/) <img alt="Brasil" src="https://github.com/JohnSalazar/microservices-go-web/assets/16736914/10cf2f14-1352-4cd4-ba33-01509f4b0d5d" width="20" height="14" /> team under the [MIT license](LICENSE).

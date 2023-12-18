@@ -46,54 +46,31 @@
       "error",
       {
         "allowDestructuring": true, // Allow `const { props, state } = this`; false by default
-        "allowedNames": [
-          "vm"
-        ] // Allow `const vm= this`; `[]` by default
+        "allowedNames": ["vm"] // Allow `const vm= this`; `[]` by default
       }
     ]
   },
   "overrides": [
     // override "simple-import-sort" config
     {
-      "files": [
-        "*.js",
-        "*.jsx",
-        "*.ts",
-        "*.tsx"
-      ],
+      "files": ["*.js", "*.jsx", "*.ts", "*.tsx"],
       "rules": {
         "simple-import-sort/imports": [
           "error",
           {
             "groups": [
               // Packages `react` related packages come first.
-              [
-                "^react",
-                "^@?\\w"
-              ],
+              ["^react", "^@?\\w"],
               // Internal packages.
-              [
-                "^(@|components)(/.*|$)"
-              ],
+              ["^(@|components)(/.*|$)"],
               // Side effect imports.
-              [
-                "^\\u0000"
-              ],
+              ["^\\u0000"],
               // Parent imports. Put `..` last.
-              [
-                "^\\.\\.(?!/?$)",
-                "^\\.\\./?$"
-              ],
+              ["^\\.\\.(?!/?$)", "^\\.\\./?$"],
               // Other relative imports. Put same-folder imports and `.` last.
-              [
-                "^\\./(?=.*/)(?!/?$)",
-                "^\\.(?!/?$)",
-                "^\\./?$"
-              ],
+              ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$"],
               // Style imports.
-              [
-                "^.+\\.?(css)$"
-              ]
+              ["^.+\\.?(css)$"]
             ]
           }
         ]

@@ -1,9 +1,9 @@
-import { useEffect, useState } from 'react'
-import { ToastContainer, Zoom } from 'react-toastify'
 import CssBaseline from '@mui/material/CssBaseline'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
+import { useEffect, useState } from 'react'
+import { ToastContainer, Zoom } from 'react-toastify'
 
 import { ApiProvider } from '@/contexts/ApiContext'
 import { AuthProvider } from '@/contexts/AuthContext'
